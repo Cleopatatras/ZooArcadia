@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="91.101204mm"
+   height="54.202297mm"
+   viewBox="0 0 91.101204 54.202297"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     style="mix-blend-mode:exclusion"
+     transform="translate(-61.709461,-50.495073)">
+    <g
+       id="g4">
+      <ellipse
+         style="mix-blend-mode:exclusion;fill:#00aa00;stroke:#fefefe;stroke-width:0.322;stroke-linejoin:round;stroke-dasharray:none;paint-order:fill markers stroke"
+         id="path3"
+         cx="107.26006"
+         cy="77.596222"
+         rx="45.389603"
+         ry="26.940149" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:87.2099;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="66.562729"
+         y="91.52375"
+         id="text2"><tspan
+           x="66.562729"
+           y="91.52375"
+           id="tspan4"><tspan
+             style="font-size:35.2778px;font-family:'Bubble Leaf Monogram';-inkscape-font-specification:'Bubble Leaf Monogram, Normal';fill:#803300"
+             id="tspan1">A</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="95.141296"
+         y="85.373932"
+         id="text3"><tspan
+           id="tspan3"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:'Perpetua Titling MT';-inkscape-font-specification:'Perpetua Titling MT, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e5ff80;stroke-width:0.264583px"
+           x="95.141296"
+           y="85.373932">RCADIA</tspan></text>
+      <path
+         style="fill:#e5ff80;stroke:#fefefe;stroke-width:0.101;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="path4"
+         d="m 134.93423,170.38611 -16.33021,0.0227 -9.23916,13.46529 -5.06788,-15.52394 -15.661319,-4.62596 13.198089,-9.61701 -0.44007,-16.32429 13.22475,9.5803 15.38934,-5.46301 -5.02474,15.53796 z"
+         transform="matrix(0.59468202,0,0,0.50652327,55.43756,-14.510035)" />
+    </g>
+  </g>
+</svg>
