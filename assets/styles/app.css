@@ -11965,6 +11965,14 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@font-face {
+  font-family: "Playwrite";
+  src: url(/assets/fonts/PlaywriteFRModerne-Regular.ttf);
+}
+@font-face {
+  font-family: "Merry";
+  src: url(/assets/fonts/Merriweather-Regular.ttf);
+}
 #navbarNavDropdown {
   justify-content: space-around;
 }
