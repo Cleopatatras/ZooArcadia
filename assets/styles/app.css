@@ -11973,7 +11973,7 @@ textarea.form-control-lg {
   font-family: "Merry";
   src: url(/assets/fonts/Merriweather-Regular.ttf);
 }
-#navbarNavDropdown {
+.navbarNavDropdown {
   justify-content: space-around;
 }
 

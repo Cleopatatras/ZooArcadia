@@ -21,7 +21,7 @@ $body-color: #a0522d;
   font-family: "Merry";
   src: url(/assets/fonts/Merriweather-Regular.ttf);
 }
-#navbarNavDropdown {
+.navbarNavDropdown {
   justify-content: space-around;
 }
 html {
@@ -85,4 +85,7 @@ p {
 }
 .services img {
   width: 50%;
+}
+.creation {
+  background: $secondary;
 }
