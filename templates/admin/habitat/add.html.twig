@@ -3,4 +3,14 @@
 {% block title %}Hello HabitatController!
 {% endblock %}
 
-{% block body %}{% endblock %}
+{% block body %}
+
+	{{form_start(habitatForm)}}
+	{{form_row(habitatForm.nomHab)}}
+	{{form_row(habitatForm.description)}}
+
+	<button type="submit">Envoyer</button>
+	{{form_end(habitatForm)}}
+
+
+{% endblock %}

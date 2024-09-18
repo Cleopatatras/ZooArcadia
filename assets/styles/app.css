@@ -11973,13 +11973,16 @@ textarea.form-control-lg {
   font-family: "Merry";
   src: url(/assets/fonts/Merriweather-Regular.ttf);
 }
-.navbarNavDropdown {
-  justify-content: space-around;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  outline: none;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
+#navbarNavDropdown {
+  justify-content: space-around;
 }
 
 .nav-link {
@@ -11996,8 +11999,6 @@ section {
 
 footer {
   padding: 15px;
-  position: absolute;
-  bottom: 0;
   width: 100%;
 }
 
@@ -12050,4 +12051,28 @@ p {
 
 .services img {
   width: 50%;
+}
+
+.creation {
+  background: #a0522d;
+}
+
+.title {
+  justify-content: center;
+  align-items: center;
+  width: 33vh;
+  height: 6vh;
+  border-radius: 10px;
+}
+
+.habitat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3em;
+}
+
+.image_section {
+  margin: 0 auto;
+  text-align: center;
 }/*# sourceMappingURL=app.css.map */
