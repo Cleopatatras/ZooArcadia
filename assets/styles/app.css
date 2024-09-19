@@ -12075,4 +12075,13 @@ p {
 .image_section {
   margin: 0 auto;
   text-align: center;
+}
+
+.contact {
+  border: #a0522d thick double;
+  border-radius: 2em;
+  width: 40%;
+  margin-top: 5em;
+  margin-bottom: 3em;
+  padding: 2em;
 }/*# sourceMappingURL=app.css.map */

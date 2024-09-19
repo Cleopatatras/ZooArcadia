@@ -9,3 +9,9 @@ import "./styles/app.css";
 import "../../vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js";
 
 console.log("This log comes from assets/app.js - welcome to AssetMapper! 🎉");
+
+const btn1 = document.querySelector("#btn-1");
+
+btn1.addEventListener("click", () => {
+  console.log("bouton cliqué !");
+});

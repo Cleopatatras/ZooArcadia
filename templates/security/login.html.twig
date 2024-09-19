@@ -1,12 +1,21 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Log in!
+{% block title %}Connexion
 {% endblock %}
 
 {% block body %}
 
-	<div class="container  bg-secondary text-primary w20">
+	{# Entete title #}
+	<div class="container-fluid entete text-primary d-flex justify-content-center h-33">
 
+		<div class="container bg-secondary title">
+			<h1 class="text-center">Connexion</h1>
+		</div>
+	</div>
+
+
+	<div class="container contact bg-secondary text-primary w20">
+		<h3>La connexion n'est possible que pour les membres du zoo</h3>
 		<form method="post">
 			{% if error %}
 				<div class="alert alert-danger">{{ error.messageKey|trans(error.messageData, 'security') }}</div>
@@ -15,8 +24,10 @@
 			{% if app.user %}
 				<div class="mb-3">
 					Vous êtes déjà connecté en tant que
-					{{ app.user.userIdentifier }},
+					{{ app.user.userIdentifier }}:
 					<a href="{{ path('app_logout') }}">Logout</a>
+					<a href="{{ path('app_espace_admin') }}">Accéder à mon espace</a>
+
 				</div>
 			{% endif %}
 
