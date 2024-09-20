@@ -50,6 +50,9 @@ class Users implements UserInterface, PasswordAuthenticatedUserInterface
     #[ORM\OneToMany(targetEntity: CompteRendu::class, mappedBy: 'user')]
     private Collection $compteRendus;
 
+    #[ORM\Column(length: 50)]
+    private ?string $fonction = null;
+
     public function __construct()
     {
         $this->compteRendus = new ArrayCollection();
@@ -192,6 +195,18 @@ class Users implements UserInterface, PasswordAuthenticatedUserInterface
                 $compteRendu->setUser(null);
             }
         }
+
+        return $this;
+    }
+
+    public function getFonction(): ?string
+    {
+        return $this->fonction;
+    }
+
+    public function setFonction(string $fonction): static
+    {
+        $this->fonction = $fonction;
 
         return $this;
     }
