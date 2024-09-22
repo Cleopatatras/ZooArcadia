@@ -15,11 +15,11 @@ $body-color: #a0522d;
 
 @font-face {
   font-family: "Playwrite";
-  src: url(/assets/fonts/PlaywriteFRModerne-Regular.ttf);
+  src: url("../fonts/PlaywriteFRModerne-Regular.ttf");
 }
 @font-face {
   font-family: "Merry";
-  src: url(/assets/fonts/Merriweather-Regular.ttf);
+  src: url("../fonts/Merriweather-Regular.ttf");
 }
 
 * {
@@ -69,7 +69,7 @@ p {
 }
 
 .entete {
-  background: url(/Assets/Images/photoTitre.png) center/cover;
+  background: url("../images/photoTitre.png") center/cover;
   position: relative;
   height: 221px;
   justify-content: space-between;
